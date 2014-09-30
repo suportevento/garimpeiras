@@ -1,0 +1,187 @@
+*{
+	padding:0px;
+	margin:0px;
+	}
+	
+a{
+	text-decoration:none;
+	}
+	
+#Menu{
+}
+
+#sf-menu{
+    color: #fff;
+    height: 40px;
+    left: 50%;
+    margin: auto auto auto -490px;
+    position: absolute;
+    top: 194px;
+    width: 980px;
+    z-index: 2;
+	height:36px;
+	background-image:url("/_usertemp/garimpeiras/image/bgmenu.jpg");
+	}
+
+#sf-menu li{
+	float:left;
+	}
+
+#sf-menu li{
+	width:auto;
+	list-style:none;
+	margin:auto;
+	}
+
+#sf-menu ul{
+	display:none;
+	}
+
+#sf-menu li{
+	position:relative;
+	float:left;
+	}
+
+#sf-menu li a{
+	color:#ddc5a6;
+	text-decoration:none;
+	padding:0px 14px; 
+	display:block;
+	height:22px;
+	border-bottom:1px dashed #fdb55a;
+	font-size:13px;
+	margin-top:8px;
+	font-weight:bold;
+	}
+
+#sf-menu li a:hover{
+	color:white;
+	border-bottom:1px dashed #fff;
+	}
+
+#sf-menu li  ul{
+	position:absolute;
+	top:25px;
+	left:0;
+	display:none;
+	}	
+
+#sf-menu li:hover ul, #sf-menu li.hover ul{
+	display:block;
+}
+
+#sf-menu li ul li{
+	border:1px solid #c0c0c0;
+	display:block;
+	width:auto;
+	white-space:nowrap;
+}
+
+#sf-menu li ul li:nth-child(1){
+	margin-top:10px;
+}
+
+#sf-menu li ul li{
+	margin-left:0px;
+	width:220px;
+}
+
+#sf-menu li{
+	color: white;
+	text-align:center;
+	font-size:13px;
+}
+
+#sf-menu li ul li ul{
+	margin-left:220px;
+	display:none!important;
+	margin-top:-35px;
+}
+
+#sf-menu li ul li:hover ul, #sf-menu ul li.hover ul{display:block!important;}
+	
+#conteudo{
+    border-radius: 15px;
+    box-shadow: 0 0 0 0 #1b763a, 2px 1px 27px 4px rgba(10, 10, 0, 0.23);
+    color: #454141;
+    margin: 0px auto auto;
+    min-height: 300px;
+    padding: 15px;
+	border:1px solid transparent;
+	width:950px;
+	padding:10px 20px;
+	border-radius: 15px;
+	margin-top:66px;
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(left,  #ffffff 0%, #e8e8e7 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ffffff), color-stop(100%,#e8e8e7)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #ffffff 0%,#e8e8e7 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #ffffff 0%,#e8e8e7 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #ffffff 0%,#e8e8e7 100%); /* IE10+ */
+	background: linear-gradient(to right,  #ffffff 0%,#e8e8e7 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e8e8e7',GradientType=1 ); /* IE6-9 */
+	padding-bottom:20px;
+	}
+	
+#conteudo h3{color:#A59C00;}
+#conteudo h1{color:#D5CB00;}
+	
+body{
+	color:#645c4e;
+	font-weight:normal;
+	}
+	
+	
+h1, h2, h3, b{
+	font-weight:bold;
+	}
+	
+.w980{
+	width:980px;
+	margin:auto;
+	}
+	
+.inleft{
+	float:left;
+	}
+	
+.inright{
+	float:right;
+	}
+	
+#g_top{
+	width:100%;
+	height:200px;
+	background-image:url("/_usertemp/garimpeiras/image/bgtop.jpg");
+	}
+	
+#t_faixa{
+	background-image:url("/_usertemp/garimpeiras/image/bgfaixa.png");
+	width:100%;
+	height:39px;
+	}
+	
+#t_faixa a{
+	color:#d39c5b;
+	}
+	
+#t_faixa a:hover{font-weight:bold;}
+	
+#t_login{margin-top:8px;}
+#t_faleconosco{margin-top:8px;}
+	
+#t_conta{
+	background-image:url("/_usertemp/garimpeiras/image/bgconta.png");
+	height:45px;
+	width:530px;
+	}
+	
+#t_busca{
+	background-image:url("/_usertemp/garimpeiras/image/bgbusca.png");
+	}
+	
+#mconta, #mpedidos, #mcarrinho{margin-left:55px;margin-top:12px;}
+
+#mcarrinho{margin-top:6px;}
+
+#mconta img, #mpedidos img, #mcarrinho img{margin-right:5px;}
